@@ -1,0 +1,6 @@
+{
+    "error.nopermission":"&a[DelayBlock] &cYou have no permission to run this command",
+    "usage":"&a[DelayBlock] &cUsage:/delay-block [x] [y] [z] [BlockType] [Delay] [Persistent]",
+    "error.wrongblocktype":"&a[DelayBlock] &cInvalid block type",
+    "error.wrongdelayorpersistent":"&a[DelayBlock] &cInvalid delay or persistent"
+}

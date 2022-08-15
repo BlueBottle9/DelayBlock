@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.bluebottle9</groupId>
+  <artifactId>delay-block</artifactId>
+  <version>0.0.1</version>
+  <name>DelayBlock</name>
+  <description>added a command to place block.</description>
+  
+        <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+  
+ <repositories>
+ 	<!--Spigot-->
+ 	<repository>
+   		<id>spigot-repo</id>
+  		<url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+	</repository>
+ </repositories>
+ 
+ <dependencies>
+ 	<!--SpigotAPI -->
+	<dependency>
+		<groupId>org.spigotmc</groupId>
+		<artifactId>spigot-api</artifactId>
+		<version>1.19.2-R0.1-SNAPSHOT</version>
+		<scope>provided</scope>
+	</dependency>
+
+	<!--many-languages-->
+	<dependency>
+		<groupId>io.github.bluebottle9</groupId>
+		<artifactId>many-languages</artifactId>
+		<version>0.0.4</version>
+	</dependency>
+ </dependencies>
+ 
+  <build>  
+        <plugins>  
+            <plugin>  
+                <groupId>org.apache.maven.plugins</groupId>  
+                <artifactId>maven-shade-plugin</artifactId>  
+                <version>2.4.3</version>  
+                <executions>  
+                    <execution>  
+                        <phase>package</phase>  
+                        <goals>  
+                            <goal>shade</goal>  
+                        </goals>  
+                    </execution>  
+                </executions>  
+            </plugin>
+     </plugins>
+	</build>
+
+</project>

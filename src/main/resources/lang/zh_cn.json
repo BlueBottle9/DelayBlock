@@ -1,0 +1,6 @@
+{
+    "error.nopermission":"&a[DelayBlock] &c你没有权限执行该指令",
+    "usage":"&a[DelayBlock] &c用法:/delay-block [x] [y] [z] [方块类型] [延迟] [持续时间]",
+    "error.wrongblocktype":"&a[DelayBlock] &c无效的方块类型",
+    "error.wrongdelayorpersistent":"&a[DelayBlock] &c无效的延迟或持续时间"
+}

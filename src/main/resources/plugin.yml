@@ -1,0 +1,6 @@
+name: DelayBlock
+version: 0.0.1-SNAPSHOT
+main: bluescreen9.minecraft.bukkit.delayblock.Main
+api-version: 1.19
+commands: 
+  delay-block: 
